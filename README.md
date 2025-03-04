@@ -12,20 +12,25 @@ Steps include loading data, exploratory analysis, feature engineering, and split
 
 ## Data Preprocessing
 Key steps include handling missing values, encoding categorical variables, scaling, and feature selection.
+<!-- ### Methods Used: -->
 
 ## Classification Analysis
-Algorithms used: Logistic Regression, KNN, SVM.
+Algorithms used: 
+  - Logistic Regression
+  - KNN,
+  - SVM and
+  - Naive Bayes
 
 ## Cluster Analysis
 Clustering techniques were applied to identify patterns in agricultural economic impact. 
 
 ### Methods Used:
+- **Elbow Method**: Used to determine the optimal number of clusters (K) by plotting within-cluster sum of squares.
 - **K-Means Clustering**: Used to segment data into clusters based on economic factors.
 - **Hierarchical Clustering**: Applied to examine data grouping based on similarity.
-- **Elbow Method**: Used to determine the optimal number of clusters (K) by plotting within-cluster sum of squares.
 
 ## Results and Insights
-Key findings include strong correlation between subsidies and economic impact, and distinct economic clusters based on production efficiency.
+Key findings include a strong correlation between subsidies and economic impact, and distinct economic clusters based on production efficiency.
 
 ## Visualizations
 Includes feature distributions, model performance metrics, clustering results, and trend analysis.
